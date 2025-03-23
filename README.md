@@ -1,6 +1,7 @@
 # 🌐 Pokemon-Viewer-Golang 🔍  
 
-**ポケモンAPIから取得した情報を検索・閲覧できる Golang 製 Web アプリ**
+**ポケモンAPIから取得した情報を閲覧できる Golang 製 Web アプリ**
+
 
 ## 🖥 デモ
 
