@@ -70,5 +70,7 @@
 
 ## <a id="参考文献"></a>📄 参考文献
 
-- [Go言語公式ドキュメント](https://go.dev/doc/)
+- [Go言語 公式ドキュメント](https://go.dev/doc/)
 - [Goパッケージリファレンス](https://go.dev/doc/)
+- [React 公式ドキュメント](https://ja.react.dev/)
+- [TypeScript 公式ドキュメント](https://www.typescriptlang.org/ja/docs/)
