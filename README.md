@@ -44,6 +44,9 @@
 
 ## <a id="API仕様"></a>🔌 API仕様
 
+- APIドキュメント：https://github.com/BackendExplorer/Pokemon-Viewer-Golang/blob/main/docs/openapi.yaml
+
+
 ---
 
 ## <a id="こだわりのポイント"></a>✨ こだわりのポイント
