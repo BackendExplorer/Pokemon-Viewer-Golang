@@ -46,11 +46,10 @@
 
 ## <a id="機能一覧"></a>⚙ 機能一覧
 
-- 一覧表示画面  
+<div style="display: flex; justify-content: space-between;">
   <img width="500" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" />
-
-- 詳細表示画面  
   <img width="500" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" />
+</div>
 
 
 
