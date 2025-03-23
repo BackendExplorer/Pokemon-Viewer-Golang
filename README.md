@@ -47,16 +47,9 @@
 ## <a id="機能一覧"></a>⚙ 機能一覧
 
 <div style="display: flex; justify-content: space-between;">
-  <div style="text-align: center; margin-right: 20px;">
-    <img width="500" alt="ポケモン一覧表示" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" />
-    <p><strong>一覧表示</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img width="500" alt="ポケモン詳細表示" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" />
-    <p><strong>詳細表示</strong></p>
-  </div>
+  <img width="500" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" />
+  <img width="500" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" />
 </div>
-
 
 ## <a id="処理フロー"></a>🔀 処理フロー
 
