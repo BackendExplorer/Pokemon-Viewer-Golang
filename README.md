@@ -46,8 +46,8 @@
 
 ## <a id="機能一覧"></a>⚙ 機能一覧
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="text-align: center;">
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: center; margin-right: 20px;">
     <img width="500" alt="ポケモン一覧表示" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" />
     <p><strong>一覧表示</strong></p>
   </div>
