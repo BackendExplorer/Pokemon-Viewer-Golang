@@ -1,101 +1,188 @@
 openapi: 3.0.0
 info:
-  title: ポケモンAPI
-  description: ポケモンの情報を取得するためのAPI
-  version: 1.0.0
+  title: Pokemon API
+  description: |
+    このAPIは、外部の pokeapi.co を利用してポケモン情報を取得するGo言語アプリケーションのエンドポイントを定義しています。
+    - 単体ポケモンの詳細情報取得
+    - 複数ポケモンのリスト取得（ページネーション対応）
+  version: "1.0.0"
+
+servers:
+  - url: http://localhost:8080
+    description: ローカル環境
 
 paths:
-  /pokemon:
-    get:
-      summary: ポケモン一覧の取得
-      description: 利用可能なポケモンの一覧を取得します
-      parameters:
-        - name: limit
-          in: query
-          description: 取得するポケモンの最大数
-          required: false
-          schema:
-            type: integer
-            default: 20
-        - name: offset
-          in: query
-          description: 取得開始位置
-          required: false
-          schema:
-            type: integer
-            default: 0
-      responses:
-        '200':
-          description: 正常にポケモン一覧を取得
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  count:
-                    type: integer
-                    description: 総ポケモン数
-                  results:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        id:
-                          type: integer
-                          description: ポケモンID
-                        name:
-                          type: string
-                          description: ポケモンの名前
-                        types:
-                          type: array
-                          items:
-                            type: string
-                          description: ポケモンのタイプ
-  
   /pokemon/{id}:
     get:
-      summary: 特定のポケモン情報の取得
-      description: 指定されたIDのポケモン詳細情報を取得します
+      summary: ポケモンの詳細を取得
+      description: 指定したID(または名前)のポケモン詳細情報を取得します。
+      operationId: getPokemonById
+      tags:
+        - Pokemon
       parameters:
         - name: id
           in: path
-          description: ポケモンのID
           required: true
+          description: ポケモンのIDまたは名前
           schema:
-            type: integer
+            type: string
       responses:
         '200':
-          description: 正常にポケモン情報を取得
+          description: OK
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  id:
-                    type: integer
-                    description: ポケモンID
-                  name:
-                    type: string
-                    description: ポケモンの名前
-                  types:
-                    type: array
-                    items:
-                      type: string
-                    description: ポケモンのタイプ
-                  stats:
-                    type: object
-                    properties:
-                      hp:
-                        type: integer
-                      attack:
-                        type: integer
-                      defense:
-                        type: integer
-                      special_attack:
-                        type: integer
-                      special_defense:
-                        type: integer
-                      speed:
-                        type: integer
-        '404':
-          description: 指定されたIDのポケモンが見つかりません
+                $ref: "#/components/schemas/PokemonDetail"
+        '500':
+          description: サーバー内部エラー
+
+  /pokemons:
+    get:
+      summary: ポケモンのリストを取得
+      description: |
+        ページネーション対応のポケモン一覧情報を取得します。
+        `page` と `limit` を指定することで、任意のページを取得可能です。
+      operationId: getPokemons
+      tags:
+        - Pokemon
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: ページ番号（省略時は1）
+          schema:
+            type: string
+            default: "1"
+        - name: limit
+          in: query
+          required: false
+          description: 1ページあたりの取得件数（省略時は20）
+          schema:
+            type: string
+            default: "20"
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PokemonListResponse"
+        '500':
+          description: サーバー内部エラー
+
+components:
+  schemas:
+    # 単体ポケモンの簡易構造(リスト用)
+    Pokemon:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ポケモンID
+        name:
+          type: string
+          description: ポケモン名
+        image:
+          type: string
+          format: uri
+          description: ポケモンの正面画像URL
+      required:
+        - id
+        - name
+        - image
+
+    # ポケモンの詳細構造
+    PokemonDetail:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ポケモンID
+        name:
+          type: string
+          description: ポケモン名
+        image:
+          type: string
+          format: uri
+          description: ポケモンの正面画像URL
+        height:
+          type: integer
+          description: ポケモンの高さ
+        weight:
+          type: integer
+          description: ポケモンの重さ
+        types:
+          type: array
+          items:
+            type: string
+          description: ポケモンのタイプ一覧
+        abilities:
+          type: array
+          items:
+            type: string
+          description: ポケモンの特性一覧
+        stats:
+          $ref: "#/components/schemas/Stats"
+      required:
+        - id
+        - name
+        - image
+        - height
+        - weight
+        - types
+        - abilities
+        - stats
+
+    # ポケモンのステータス情報
+    Stats:
+      type: object
+      properties:
+        hp:
+          type: integer
+          description: HP
+        attack:
+          type: integer
+          description: 攻撃
+        defense:
+          type: integer
+          description: 防御
+        special_attack:
+          type: integer
+          description: 特攻
+        special_defense:
+          type: integer
+          description: 特防
+        speed:
+          type: integer
+          description: 素早さ
+      required:
+        - hp
+        - attack
+        - defense
+        - special_attack
+        - special_defense
+        - speed
+
+    # 複数ポケモン取得時のレスポンス
+    PokemonListResponse:
+      type: object
+      properties:
+        pokemon:
+          type: array
+          items:
+            $ref: "#/components/schemas/Pokemon"
+          description: ポケモンのリスト
+        total:
+          type: integer
+          description: 取得可能なポケモンの総数
+        page:
+          type: string
+          description: 現在のページ番号
+        limit:
+          type: string
+          description: 1ページあたりの取得件数
+      required:
+        - pokemon
+        - total
+        - page
+        - limit
