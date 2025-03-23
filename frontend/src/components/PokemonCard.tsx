@@ -1,35 +1,39 @@
 import { Card, CardContent, Typography, Box } from '@mui/material'
 import { Pokemon } from '../types/pokemon'
 
-interface Props {
+interface PokemonCardProps {
   pokemon: Pokemon
+  onClick: (id: number) => void
 }
 
-export const PokemonCard = ({ pokemon }: Props) => {
+export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
   return (
-    <Card sx={{ width: 200, height: 280 }}>
-      <CardContent>
-        <Typography>
-          No.{pokemon.id}
-        </Typography>
-        <Typography 
-          variant="h6" 
-          component="h2" 
-          sx={{ 
-            textTransform: 'capitalize',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap'
-          }}
-        >
-          {pokemon.name}
-        </Typography>
-        <Box sx={{ textAlign: 'center', mt: 2 }}>
+    <Card 
+      sx={{ 
+        cursor: 'pointer',
+        transition: 'transform 0.2s',
+        '&:hover': {
+          transform: 'scale(1.05)',
+          boxShadow: 3
+        }
+      }}
+      onClick={() => onClick(pokemon.id)}
+    >
+      <Box sx={{ textAlign: 'center', mt: 2 }}>
           <img 
             src={pokemon.image}
             alt={pokemon.name}
             style={{ width: '120px', height: '120px', objectFit: 'contain' }}
           />
+        </Box>
+      <CardContent>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 1 }}>
+          <Typography variant="h6">
+            No.{pokemon.id}
+          </Typography>
+          <Typography variant="h6" component="div">
+            {pokemon.name}
+          </Typography>
         </Box>
       </CardContent>
     </Card>
