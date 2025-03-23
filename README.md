@@ -45,9 +45,10 @@
 | バージョン管理 | Git, GitHub        |
 
 ## <a id="機能一覧"></a>⚙ 機能一覧
-<img width="1438" alt="スクリーンショット 2025-03-23 21 42 51" src="https://github.com/user-attachments/assets/e2b77e9c-71a5-40cb-a33c-64435f9b321d" />
-
-<img width="1440" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/732bdd73-55da-4bc4-94a9-8753e552bd70" />
+<div style="display: flex; justify-content: space-between;">
+    <img width="700" alt="スクリーンショット 2025-03-23 21 42 51" src="https://github.com/user-attachments/assets/e2b77e9c-71a5-40cb-a33c-64435f9b321d" />
+    <img width="700" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/732bdd73-55da-4bc4-94a9-8753e552bd70" />
+</div>
 
 
 ## <a id="処理フロー"></a>🔀 処理フロー
