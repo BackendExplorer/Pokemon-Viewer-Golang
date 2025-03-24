@@ -153,12 +153,12 @@ sequenceDiagram
 
 ```
 
-
+---
 ## <a id="API仕様"></a>🔌 API仕様
 
 - APIドキュメント：https://github.com/BackendExplorer/Pokemon-Viewer-Golang/blob/main/docs/openapi.yaml
 
-
+---
 
 ## <a id="使用技術"></a>🧱 使用技術
 
