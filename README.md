@@ -64,9 +64,11 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
 下のスクリーンショットは、左が「ポケモン一覧画面」、右が「ポケモン詳細画面」の例です。
 
-| <img width="400" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" /> | <img width="400" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" /> |
+| <img width="1440" alt="スクリーンショット 2025-03-24 15 02 13" src="https://github.com/user-attachments/assets/d76940f6-d1d0-48a0-9944-515d582fd30e" /> | <img width="400" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" /> |
 | --- | --- |
 ## <a id="処理フロー"></a>🔀 処理フロー
+
+
 
 ## <a id="API仕様"></a>🔌 API仕様
 
