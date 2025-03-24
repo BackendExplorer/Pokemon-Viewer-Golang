@@ -57,27 +57,15 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
 本アプリでは、以下の機能を利用できます。
 
----
-
-- **ポケモン一覧表示**  
+- ポケモン一覧表示  
   ポケモンの名前やアイコンなどを一覧で確認できます。
-
-- **ポケモン詳細表示**  
+- ポケモン詳細表示  
   各ポケモンのタイプ、能力、ステータスなどを個別に確認できます。
-
----
 
 下のスクリーンショットは、左が「ポケモン一覧画面」、右が「ポケモン詳細画面」の例です。
 
-<div style="display: flex; justify-content: space-between;">
-  <img width="500" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" />
-  <img width="500" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" />
-</div>
-
----
-
-- 「ポケモン一覧画面」では、すべてのポケモンをまとめて表示し、名前やタイプなどの概要を確認できます。  
-- 「ポケモン詳細画面」では、各ポケモンごとの詳細情報（タイプ、ステータス、アビリティなど）を個別に閲覧できます。
+| <img width="400" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" /> | <img width="400" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" /> |
+| --- | --- |
 ## <a id="処理フロー"></a>🔀 処理フロー
 
 ## <a id="API仕様"></a>🔌 API仕様
