@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 - npm または yarn  
 - Git  
 
----
+
 
 ### 2. クローン
 
@@ -61,7 +61,7 @@ git clone https://github.com/yourname/Pokemon-Viewer-Golang.git
 cd Pokemon-Viewer-Golang
 ```
 
----
+
 
 ### 3. フロントエンドの起動
 
@@ -77,7 +77,7 @@ npm install
 npm run dev
 ```
 
----
+
 
 ### 4. バックエンドの起動
 
@@ -95,7 +95,7 @@ go run main.go
 
 [http://localhost:5173](http://localhost:5173) でアクセス可能です。
 
----
+
 
 
 
