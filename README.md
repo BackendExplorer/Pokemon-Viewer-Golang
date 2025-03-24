@@ -14,7 +14,6 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
 
 ## **📎 概要**
-- [セットアップ](#セットアップ)
 - [利用方法](#利用方法)
 
 ---
@@ -39,9 +38,39 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
 ---
 
-## <a id="セットアップ"></a>🧰 セットアップ
+
 
 ## <a id="利用方法"></a>📖 利用方法
+
+
+### 1. 前提条件
+- Go 1.20以上
+- Node.js 18.x以上
+- npm または yarn
+- Docker（任意）
+
+### 2. クローン
+```bash
+git clone https://github.com/yourname/Pokemon-Viewer-Golang.git
+cd Pokemon-Viewer-Golang
+```
+
+### 3. フロントエンドの起動
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 4. バックエンドの起動
+```bash
+cd backend
+go run main.go
+```
+
+### 5. アクセス
+[http://localhost:5173](http://localhost:5173) でアクセス可能です。
+
 
 ---
 
