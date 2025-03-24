@@ -5,10 +5,7 @@
 
 ## 🖥 デモ
 
-
-
-https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
-
+<iframe src="https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2" width="480" height="270" frameborder="0" allowfullscreen></iframe>
 
 
 
