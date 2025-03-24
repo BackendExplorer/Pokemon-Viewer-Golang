@@ -86,7 +86,7 @@ cd backend
 ```
 
 ```bash
-go run main.go
+go run .
 ```
 
 
