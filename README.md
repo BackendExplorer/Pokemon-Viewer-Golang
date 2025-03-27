@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 ### 2. クローン
 
 ```bash
-git clone https://github.com/yourname/Pokemon-Viewer-Golang.git
+git clone https://github.com/BackendExplorer/Pokemon-Viewer-Golang.git
 ```
 
 ```bash
