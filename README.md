@@ -162,6 +162,9 @@ sequenceDiagram
 
 ```
 
+
+<img width="790" alt="スクリーンショット 2025-03-30 6 05 36" src="https://github.com/user-attachments/assets/84d6ee7a-ed61-46db-92bb-5361388e8988" />
+
 ---
 ## <a id="API仕様"></a>🔌 API仕様
 
