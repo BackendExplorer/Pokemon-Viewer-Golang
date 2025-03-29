@@ -146,7 +146,7 @@ sequenceDiagram
 
     フロントエンド->>バックエンド: ポケモン一覧取得リクエスト (GET /pokemons)
     バックエンド->>PokémonAPI: ポケモン一覧データを取得 (https://pokeapi.co/api/v2/pokemon?...)
-    PokemonAPI-->>バックエンド: ポケモン一覧データ (JSON)
+    PokémonAPI-->>バックエンド: ポケモン一覧データ (JSON)
     バックエンド-->>フロントエンド: ポケモン一覧データ (JSON)
 
     note over フロントエンド: Reactで一覧を表示
@@ -154,7 +154,7 @@ sequenceDiagram
     ユーザー->>フロントエンド: 一覧からポケモンをクリック
     フロントエンド->>バックエンド: 特定のポケモン詳細リクエスト (GET /pokemons/:id)
     バックエンド->>PokémonAPI: ポケモン詳細データを取得 (https://pokeapi.co/api/v2/pokemon/{id})
-    PokemonAPI-->>バックエンド: ポケモン詳細データ (JSON)
+    PokémonAPI-->>バックエンド: ポケモン詳細データ (JSON)
     バックエンド-->>フロントエンド: ポケモン詳細データ (JSON)
 
     note over フロントエンド: Reactで詳細画面を表示
