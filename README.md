@@ -164,10 +164,8 @@ sequenceDiagram
 
 
 ```
-<img width="788" alt="スクリーンショット 2025-03-30 6 52 10" src="https://github.com/user-attachments/assets/3c7406fb-0834-468b-ba25-d3d54308cd4c" />
-
-<img width="788" alt="スクリーンショット 2025-03-30 6 34 53" src="https://github.com/user-attachments/assets/18b12a1e-4d2b-4d05-aba7-e19f6a42fb62" />
-
+<img width="790" alt="スクリーンショット 2025-03-30 6 56 36" src="https://github.com/user-attachments/assets/16fff015-1093-4a5f-8ee6-bf587e26c7de" />
+<img width="791" alt="スクリーンショット 2025-03-30 6 56 43" src="https://github.com/user-attachments/assets/15d25945-3987-4709-a5a2-c1925ea3f3dc" />
 
 
 
