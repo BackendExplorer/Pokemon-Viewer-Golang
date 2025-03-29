@@ -163,7 +163,7 @@ sequenceDiagram
 ```
 
 
-<img width="790" alt="スクリーンショット 2025-03-30 6 05 36" src="https://github.com/user-attachments/assets/84d6ee7a-ed61-46db-92bb-5361388e8988" />
+<img width="791" alt="スクリーンショット 2025-03-30 6 07 30" src="https://github.com/user-attachments/assets/1fddcaa6-b8e1-4e6d-97f2-a535811b9d54" />
 
 ---
 ## <a id="API仕様"></a>🔌 API仕様
