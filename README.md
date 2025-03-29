@@ -162,7 +162,7 @@ sequenceDiagram
 
 ```
 <img width="789" alt="スクリーンショット 2025-03-30 6 33 33" src="https://github.com/user-attachments/assets/6408da4a-8840-4470-b8c2-f0f7500e1ab6" />
-<img width="792" alt="スクリーンショット 2025-03-30 6 33 42" src="https://github.com/user-attachments/assets/94dda70e-aa35-4cf2-9b8a-0d8bbe55b2b6" />
+<img width="788" alt="スクリーンショット 2025-03-30 6 34 53" src="https://github.com/user-attachments/assets/18b12a1e-4d2b-4d05-aba7-e19f6a42fb62" />
 
 
 
