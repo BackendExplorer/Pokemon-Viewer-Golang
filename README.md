@@ -2,14 +2,8 @@
 
 **ポケモンAPIから取得した情報を閲覧できる Golang 製 Web アプリ**
 
-
 ## 🖥 デモ
-
-
-
 https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
-
-
 
 ---
 
