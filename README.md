@@ -207,8 +207,6 @@ sequenceDiagram
 - [TypeScript 公式ドキュメント](https://www.typescriptlang.org/ja/docs/)
 
 
----
-
 ## <a id="ライセンス"></a>👤 ライセンス
 このプロジェクトは [MIT License](https://opensource.org/licenses/MIT) のもとで公開されています。  
 自由に利用、改変、再配布が可能ですが、利用の際は本ライセンス表記を保持してください。
