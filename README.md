@@ -24,8 +24,9 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 - [さらに追加したい機能](#さらに追加したい機能)
 
 
-## **📄 参考情報**
+## **📄 参考情報・ライセンス**
 - [参考文献](#参考文献)
+- [ライセンス](#ライセンス)
 
 ---
 ## <a id="説明"></a>📝 説明
@@ -204,3 +205,10 @@ sequenceDiagram
 - [Goパッケージリファレンス](https://go.dev/doc/)
 - [React 公式ドキュメント](https://ja.react.dev/)
 - [TypeScript 公式ドキュメント](https://www.typescriptlang.org/ja/docs/)
+
+
+---
+
+## <a id="ライセンス"></a>👤 ライセンス
+このプロジェクトは [MIT License](https://opensource.org/licenses/MIT) のもとで公開されています。  
+自由に利用、改変、再配布が可能ですが、利用の際は本ライセンス表記を保持してください。
