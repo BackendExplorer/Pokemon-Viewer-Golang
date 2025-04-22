@@ -62,6 +62,8 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
   React + Vite によるシンプルな UI で、一覧表示から詳細確認までスムーズに操作できます。
 
+<br>
+
 ## <a id="利用方法"></a>📖 利用方法
 
 
@@ -119,7 +121,7 @@ go run .
 [http://localhost:5173](http://localhost:5173) でアクセス可能です。
 
 
-
+<br>
 
 
 ---
@@ -136,6 +138,8 @@ go run .
 
 | <img width="400" alt="スクリーンショット 2025-03-23 21 46 34" src="https://github.com/user-attachments/assets/142ace7e-5967-4701-bf77-6f49dd1c3897" /> | <img width="400" alt="スクリーンショット 2025-03-23 21 43 01" src="https://github.com/user-attachments/assets/8a283659-6062-493f-a3b3-870b99e14308" /> |
 | --- | --- |
+
+<br>
 
 ---
 
@@ -182,12 +186,14 @@ sequenceDiagram
 <img width="790" alt="スクリーンショット 2025-03-30 6 56 36" src="https://github.com/user-attachments/assets/16fff015-1093-4a5f-8ee6-bf587e26c7de" />
 <img width="791" alt="スクリーンショット 2025-03-30 6 56 43" src="https://github.com/user-attachments/assets/15d25945-3987-4709-a5a2-c1925ea3f3dc" />
 
-
+<br>
 
 ---
 ## <a id="API仕様"></a>🔌 API仕様
 
 - APIドキュメント：https://github.com/BackendExplorer/Pokemon-Viewer-Golang/blob/main/docs/openapi.yaml
+
+<br>
 
 ---
 
@@ -199,6 +205,7 @@ sequenceDiagram
 | フロントエンド | React, Vite       |
 | バージョン管理 | Git, GitHub        |
 
+<br>
 
 ---
 
@@ -224,6 +231,8 @@ sequenceDiagram
 
 - ユニットテスト・統合テストの実装
 
+<br>
+
 ---
 
 ## <a id="参考文献"></a>📄 参考文献
@@ -236,6 +245,8 @@ sequenceDiagram
 
 - [TypeScript 公式ドキュメント](https://www.typescriptlang.org/ja/docs/)
 
+
+<br>
 
 ## <a id="ライセンス"></a>👤 ライセンス
 
