@@ -1,32 +1,52 @@
 # 🌐 Pokemon-Viewer-Golang 🔍  
 
+<br>
+
 **ポケモンAPIから取得した情報を閲覧できる Golang 製 Web アプリ**
 
+<br>
+
 ## 🖥 デモ
+
+<br>
+
 https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
-
+<br>
 
 ## **📎 概要**
+
 - [説明](#説明)
+
 - [利用方法](#利用方法)
+
 - [機能一覧](#機能一覧)
 
 
 ## **🛠 技術関連**
+
 - [処理フロー](#処理フロー)
+
 - [API仕様](#-api仕様)
+
 - [使用技術](#使用技術)
 
 ## **📍 開発のポイント**
+
 - [こだわりのポイント](#こだわりのポイント)
+
 - [苦労した点](#苦労した点)
+
 - [さらに追加したい機能](#さらに追加したい機能)
 
 
 ## **📄 参考情報・ライセンス**
+
 - [参考文献](#参考文献)
+
 - [ライセンス](#ライセンス)
+
+<br>
 
 ---
 ## <a id="説明"></a>📝 説明
@@ -209,12 +229,16 @@ sequenceDiagram
 ## <a id="参考文献"></a>📄 参考文献
 
 - [Go言語 公式ドキュメント](https://go.dev/doc/)
+
 - [Goパッケージリファレンス](https://go.dev/doc/)
+
 - [React 公式ドキュメント](https://ja.react.dev/)
+
 - [TypeScript 公式ドキュメント](https://www.typescriptlang.org/ja/docs/)
 
 
 ## <a id="ライセンス"></a>👤 ライセンス
+
 このプロジェクトは [MIT License](https://opensource.org/licenses/MIT) のもとで公開されています。  
 
 自由に利用、改変、再配布が可能ですが、利用の際は本ライセンス表記を保持してください。
