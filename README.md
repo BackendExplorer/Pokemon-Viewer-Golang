@@ -70,8 +70,11 @@ https://github.com/user-attachments/assets/5894cd75-e0ca-41b2-be5c-30b4d4ea33a2
 
 ### 1. 前提条件
 - Go 1.20以上  
+
 - Node.js 18.x以上  
+
 - npm または yarn  
+
 - Git  
 
 
