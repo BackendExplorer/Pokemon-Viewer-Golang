@@ -190,8 +190,7 @@ sequenceDiagram
 
 
 ```
-<img width="790" alt="スクリーンショット 2025-03-30 6 56 36" src="https://github.com/user-attachments/assets/16fff015-1093-4a5f-8ee6-bf587e26c7de" />
-<img width="791" alt="スクリーンショット 2025-03-30 6 56 43" src="https://github.com/user-attachments/assets/15d25945-3987-4709-a5a2-c1925ea3f3dc" />
+<img width="790" alt="スクリーンショット 2025-05-12 12 24 47" src="https://github.com/user-attachments/assets/e4955a35-19ef-4214-8d82-d50898a30904" />
 
 <br>
 
