@@ -22,7 +22,7 @@
 
 <br>
 
-![bf](https://github.com/user-attachments/assets/5d90ce98-a269-47b7-8ced-a01ab6708e51)
+![Image](https://github.com/user-attachments/assets/8b4cc876-beed-4cbd-8dc4-330c0277a992)
 
 <br>
 
@@ -30,8 +30,7 @@
 
 <br>
 
-![af](https://github.com/user-attachments/assets/450bc6c3-3a29-4b17-8cd2-13e7cd7bc08e)
-
+![Image](https://github.com/user-attachments/assets/c432bcd1-eb77-4f97-abd5-dc0b8d9a2a10)
 
 <br>
 
